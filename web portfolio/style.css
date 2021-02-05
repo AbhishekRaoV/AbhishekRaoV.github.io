@@ -113,132 +113,57 @@ background-image: url(https://1.bp.blogspot.com/-t-ey8beCtdo/YBp4gd8yOeI/AAAAAAA
     background:#e9f0f5; 
     margin:0;
     padding:0 100px;
+    color:black;
 }
-.title{
-    margin-top:40px;
-}
-.title h2{
-    font-weight:bold;
+#page3{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding-top:30px;
-    font-size:25px;
+    justify-content: space-between;
 }
-.timeline{
-    margin-top:40px;
-    margin-bottom:40px;
-    position: relative;
-    box-sizing: border-box;
-}
-.timeline:before{
-    content: "";
-    position: absolute;
-    left:50%;
-    width:2px;
-    height:79%;
-    background:black;
-}
-.timeline ul{
-    margin:0;
-    padding:0;
-}
-.timeline ul li h3{
-    color: black;
-    font-weight:20000;
-}
-.timeline ul li{
-    list-style:none;
-    position: relative;
-    width:50%;
-    padding:20px 25px;
-    box-sizing: border-box;
-}
-.timeline ul li:nth-child(odd){
-    float:left;
-    text-align:right;
-    clear:both;
-}
-.timeline ul li:nth-child(even){
-    float:right;
-    text-align: left;
-    clear:both;
+.titlepage3{
+    font-size:18px;
+    padding-bottom: 25px;
+    padding-top:35px;
 }
 .content{
-    padding-bottom:40px;
-    border:1px solid #eee;
-    padding:10px 10px;
-    border-radius:20px;
-    background:#fff;
-    text-align:justify;
+    border:solid 1px lightgray;
+    padding: 10px 100px 10px 100px;
+    margin-bottom: 30px;
+    border-radius:2px;
+    box-shadow:0px 0px 20px gray;
 }
-.timeline ul li:nth-child(odd):before{
-    content:"";
-    position:absolute;
-    top:24px;
-    right:-11px;
-    width:20px;
-    height:20px;
-    background:#c23941;
-    border-radius:50%;
-    box-shadow:0 0 0 3px rgba(233,33,99,0.2);
+.content:hover{
+    background:#26E07F;
+    color:#0E1612;
+    transition: 0.4s ease-in-out;
+    box-shadow: none;
+    border:solid 1px lightgray;
 }
-.timeline ul li:nth-child(even):before{
-    content:"";
-    position:absolute;
-    top:24px;
-    left:-11px;
-    width:20px;
-    height:20px;
-    background:#c23941;
-    border-radius:50%;
-    box-shadow:0 0 0 3px rgba(233,33,99,0.2);
+.content h5,h3,p{
+    text-align: center;
 }
-.timeline ul li h3{
-    margin:0;
-    padding: 0;
-    font-weight: 600;
-    color: #303e49;
+.content h5,p{
+    font-size:13px;
 }
-.timeline ul li p{
-    margin:10px 0 0;
-    padding:0;
-    line-height:1.7;
-}
-.timeline ul li h4{
-    margin:0;
-    padding:0;
-    font-size:16px;
-}
-.timeline ul li:nth-child(odd) .time{
-    position:absolute;
-    top:12px;
-    right:-135px;
-    margin:0;
-    padding:8px 16px;
-    background:#303249;
-    color:#fff;
-    border-radius:18px;
-}
-.timeline ul li:nth-child(even) .time{
-    position:absolute;
-    top:12px;
-    left:-135px;
-    margin:0;
-    padding:8px 16px;
-    background:#303249;
-    color:#fff;
-    border-radius:18px;
-}
-#page4{
+.content{
     display:flex;
     flex-direction:column;
-    padding:0px 100px;
-    display:flex;
+    justify-content: center;
 }
-.skillstitle{
-    font-weight:bolder;
+.content h3,h5,p{
+    padding-bottom: 10px;
+}
+.timeline{
+    justify-content: center;
+}
+.skillstitle h1{
+    justify-content: center;
     text-align: center;
-    padding-top:30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 .grid{
     display: grid;
@@ -246,6 +171,7 @@ background-image: url(https://1.bp.blogspot.com/-t-ey8beCtdo/YBp4gd8yOeI/AAAAAAA
     padding:10px;
     grid-column-gap: 20px;
     grid-row-gap:20px;
+    padding-bottom: 30px;
 }
 .c,.java,.dsp,.photography,.editing,.html{
     border:1px solid lightgray;
@@ -259,7 +185,7 @@ background-image: url(https://1.bp.blogspot.com/-t-ey8beCtdo/YBp4gd8yOeI/AAAAAAA
     padding-bottom: 10px;
 }
 .grid p{
-    font-size:15px;
+    font-size:8px;
     color:#504D4D;
     font-size: 15px;
 }
