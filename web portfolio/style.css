@@ -13,6 +13,7 @@ display: flex;
 flex-direction: row;
 max-width: auto;
 justify-content: space-between;
+font-weight: bold;
 }
 .left img{
     width:100px;
@@ -27,6 +28,7 @@ a{
     padding-right: 10px;
     text-decoration: none;
     color: white;
+    font-weight: bolder;
     
 }
 
@@ -50,9 +52,11 @@ a:hover{
 }
 .middle .name1{
     font-size:40px;
+    font-weight:bolder;    
 }
 .middle .name2,.name3{
     font-size:20px;
+    font-weight:lighter;
 }
 .name2 span{
     color: #25EB41;
@@ -64,7 +68,8 @@ a:hover{
     border:2px solid #25EB41;
     border-radius: 100px;
     font-size:17px;
-    padding: 7px 30px;  
+    padding: 7px 30px; 
+    font-weight: bold; 
     
 }
 .button1:hover{
@@ -90,16 +95,19 @@ background-image: url(https://1.bp.blogspot.com/-t-ey8beCtdo/YBp4gd8yOeI/AAAAAAA
 .aboutme h1{
     padding-top:20px;
     padding-bottom:15px;
+    font-size: 25px;
 }
 .aboutme h3{
     padding-bottom:20px;
     color:#504D4D;
     font-size: 15px;
+    font-weight: 300;
 }
 .aboutme ul,li{
     padding-bottom:10px;
     color:#504D4D;
     font-size: 15px;
+    font-weight: 300;
 }
 #page3{
     background:#e9f0f5; 
@@ -113,6 +121,7 @@ background-image: url(https://1.bp.blogspot.com/-t-ey8beCtdo/YBp4gd8yOeI/AAAAAAA
     font-weight:bold;
     text-align: center;
     padding-top:30px;
+    font-size:25px;
 }
 .timeline{
     margin-top:40px;
@@ -131,6 +140,10 @@ background-image: url(https://1.bp.blogspot.com/-t-ey8beCtdo/YBp4gd8yOeI/AAAAAAA
 .timeline ul{
     margin:0;
     padding:0;
+}
+.timeline ul li h3{
+    color: black;
+    font-weight:20000;
 }
 .timeline ul li{
     list-style:none;
@@ -222,9 +235,10 @@ background-image: url(https://1.bp.blogspot.com/-t-ey8beCtdo/YBp4gd8yOeI/AAAAAAA
     display:flex;
 }
 .skillstitle{
-    font-weight:bold;
+    font-weight:bolder;
     text-align: center;
     padding-top:30px;
+    padding-bottom: 30px;
 }
 .grid{
     display: grid;
@@ -235,6 +249,7 @@ background-image: url(https://1.bp.blogspot.com/-t-ey8beCtdo/YBp4gd8yOeI/AAAAAAA
 }
 .c,.java,.dsp,.photography,.editing,.html{
     border:1px solid lightgray;
+    border-radius: 3px;
     text-align: center;
     padding:20px;
 }
@@ -249,7 +264,8 @@ background-image: url(https://1.bp.blogspot.com/-t-ey8beCtdo/YBp4gd8yOeI/AAAAAAA
     font-size: 15px;
 }
 .grid h2{
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: bold;
 }
 .grid div:hover{
     box-shadow:0 0 20px lightgray;
@@ -261,6 +277,11 @@ background-image: url(https://1.bp.blogspot.com/-t-ey8beCtdo/YBp4gd8yOeI/AAAAAAA
     text-align: center;
     padding-top:30px;
     background:#e9f0f5;
+}
+.titlepage4 h1{
+    font-weight:bolder;
+    padding-top:10px;  
+    font-size: 25px; 
 }
 .ape{
     display:flex;
