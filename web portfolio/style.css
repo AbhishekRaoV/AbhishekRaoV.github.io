@@ -246,6 +246,7 @@ background-image: url(https://1.bp.blogspot.com/-t-ey8beCtdo/YBp4gd8yOeI/AAAAAAA
     padding:10px;
     grid-column-gap: 20px;
     grid-row-gap:20px;
+    padding-bottom: 30px;
 }
 .c,.java,.dsp,.photography,.editing,.html{
     border:1px solid lightgray;
